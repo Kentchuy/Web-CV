@@ -1,0 +1,102 @@
+@font-face{ 
+	font-family: "Amaranth";
+	src: url("/assets/fonts/Amaranth/Amaranth-Regular.otf") format("otf");
+}
+*{
+    font-family: "Amaranth", 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Helvetica, Arial, sans-serif;
+}
+/* Mobile first */
+.wrapper{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.titre{
+    font-weight: bold;
+}
+.nom{
+    font-size: 2em;
+    text-shadow: 0px 3px 2px black;
+}
+/* .presentation{} */
+
+/* .experiences{} */
+/* .informatique{} */
+/* .competences{} */
+.wrapAtoutsLangues{
+    display: flex;
+    flex-direction: row;
+}
+.subWrapAtoutsLangues{
+    display: flex;
+    flex-direction: column;
+}
+/* .atouts{} */
+/* .langues{} */
+/* .centresInteret{} */
+/* .infosClefs{} */
+div{
+    margin-top: 20px;
+}
+p{
+    margin-left: 5vw;
+    margin-right: 5vw;
+    text-align: center;
+}
+h1, h2, h3{
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+}
+h1{
+    font-size: 1.8rem;
+}
+h2{
+    font-size: 1.6rem;
+}
+h3{
+    font-size: 1.2rem;
+}
+.spanDate{
+    font-style: italic;
+    display: flex;
+    justify-content: center;
+}
+.paraFlex{
+    display: flex;
+    flex-direction: column;
+}
+em{
+    font-style: normal;
+    font-weight: bold;
+}
+.spanLieu{
+    font-style: italic;
+}
+.miniFont{
+    font-family: Helvetica;
+    font-size: small;
+}
+.jauge{
+    height: 6px;
+    width: 75vw;
+    max-width: 325px;
+    background-color: rgb(233, 233, 233);
+    border: solid 1px grey;
+}
+.htmlBar{
+    height: 2px;
+    border: solid 2px rgb(166, 226, 46);
+    background-color: aquamarine;
+    width: 60vw;
+    max-width: 260px;
+    margin: 0;
+}
+
+
+/* Ordinateur */
+
+
+
+
+
